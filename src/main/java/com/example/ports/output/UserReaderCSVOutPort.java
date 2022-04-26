@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface UserReaderCSVOutPort {
     List<User> readUsersOfCSV();
+
+    List<User> realReadUserOfCSV();
 }
